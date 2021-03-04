@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const connectDB = () => {
-        mongoose.connect('mongodb://localhost/booksAPI', {
+        mongoose.connect('mongodb://localhost/usersAPI', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false,
